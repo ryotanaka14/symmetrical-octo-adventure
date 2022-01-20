@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body{
+    text-align: center;
+}
+.wrapper{
+    background: url(../img/bg-img.jpg);
+    background-size: cover;
+    height: 100vh ;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4)
+}
+.logo{
+    width: 250px;
+    height: auto;
+    padding: -2px 50px;
+
+}
+    .logo:hover{
+        background-color: rgba(63, 62, 62, 0.4);
+        border-radius: 26px;
+        height: 80px;
+        
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(228, 215, 215);
+    font-size: 20px;
+    padding: 6px 13px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 26px;
+    
+
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center{
+    color: rgb(8, 8, 8);
+    font-size: 40px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    animation:blink 5s linear infinite;
+
+}
+.center h2{
+    color: rgb(58, 56, 56);
+    font-size: 35px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+.center .buttons{
+    margin: 35px 280px;
+    
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+     color: #fcfcfc;
+     background: rgb(66, 66, 66);
+     border: 1px solid #fdfdfd;
+     outline: none;
+     cursor: pointer;
+     border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 26px;
+    
+
+}
+.buttons button:hover{
+    background: #03beec;
+}
+.blink{
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate (-50%, -50%);
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: 3;}
+    100%{opacity: 6;}
+
+
+    
+}
+
+.content-area{
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: center;
+    top: 1px;
+    height: 1500px;
+    
+
+
+}
+
+
+
+
+.content-area h2{
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 50px;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.content-area p{
+    text-align: center;
+    width: 100%;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    padding: 2% 0;
+    font-family: cursive;
+    line-height: 30px;
+      
+}
+.content-area h3{
+    width: 100%;
+    font-size: 21px;
+    color: #fcfcfc;
+    padding: 2% 0;
+    font-family: cursive;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
